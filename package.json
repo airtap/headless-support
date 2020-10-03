@@ -1,0 +1,37 @@
+{
+  "name": "headless-support",
+  "version": "0.0.0",
+  "description": "Returns whether a given browser supports headless mode",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && depcheck && nyc node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "browser-names": "^1.1.0"
+  },
+  "devDependencies": {
+    "depcheck": "^1.2.0",
+    "nyc": "^15.1.0",
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  },
+  "keywords": [
+    "headless",
+    "browser",
+    "chrome",
+    "chromium",
+    "edge",
+    "msedge",
+    "firefox"
+  ],
+  "repository": "airtap/headless-support",
+  "bugs": "https://github.com/airtap/headless-support/issues",
+  "homepage": "https://github.com/airtap/headless-support",
+  "engines": {
+    "node": ">=10"
+  }
+}
