@@ -1,6 +1,6 @@
 {
   "name": "headless-support",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Returns whether a given browser supports headless mode",
   "license": "MIT",
   "author": "Vincent Weevers",
